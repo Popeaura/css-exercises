@@ -2,36 +2,38 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#para{
+  font-size: 40px;
+}
+
 .para,
 .small-para {
+  font: size 22x;
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
 .small-para {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
 
 .confirm {
-  background: green;
+  background: rgb(10, 58, 10);
   color: white;
   font-weight: bold;
 } 
 
 .button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(77, 153, 61);
+  color: white;
   font-size: 20px;
 }
 
 .child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
+  font: weight 800px;;
   font-size: 14px;
 }
 
@@ -39,4 +41,8 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+#cancel-button{
+  color: black;
+  background-color: white;
 }
